@@ -1,9 +1,12 @@
-var express = require('express');
-var router = express.Router();
+module.exports = function(app){
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+    app.get('/', function(req, res, next) {
+        /*
+        1. Determine format of data received.
+        2. Parse data and log types of tags present in data. 
+        */
+        console.log('file received...processing.')
+        res.send();
+    });
 
-module.exports = router;
+}
