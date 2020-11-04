@@ -1,25 +1,40 @@
 {
   "name": "exemplar",
   "version": "v0.0.0",
-  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "jeffreyallanbrown",
+  "license": "",
+  "bugs": {
+    "url": "https://"
+  },
+  "homepage": "https://",
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "index.js",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "method-override": "^3.0.0",
-    "morgan": "~1.9.1"
+    "@babel/polyfill": "^7.12.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0"
+    "gulp-sourcemaps": "^2.6.5"
   },
   "scripts": {
-    "build": "",
-    "start": ""
+    "setup": "npm install && npm run build",
+    "build": "gulp default",
+    "start": "node app"
   }
 }
