@@ -1,6 +1,6 @@
 {
   "name": "exemplar",
-  "version": "v0.0.0",
+  "version": "0.0.1",
   "description": "Simple application for quickly converting data between XML and JSON datatypes.",
   "repository": {
     "type": "git",

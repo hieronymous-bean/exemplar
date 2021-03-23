@@ -1,3 +1,1 @@
-exports.printMsg = function() {
-    console.log("...");
-}
+module.exports = require('./lib/index.js');

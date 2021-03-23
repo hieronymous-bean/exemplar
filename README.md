@@ -2,7 +2,7 @@
 <img src="./.github/assets/exemplar.png" alt="Exemplar" width="100%" />
 
 [![Development Status](https://img.shields.io/static/v1?label=status&message=Active&nbsp;Development&color=blue&style=flat-square&?logo=open-source-initiative&logoColor=ffffff)](#) [![Version](https://img.shields.io/github/v/release/hieronymous-bean/exemplar?include_prereleases&style=flat-square)](#) [![Issues](https://img.shields.io/github/issues-raw/hieronymous-bean/exemplar?style=flat-square)](#)
-[![Issues](https://img.shields.io/github/status/s/pulls/hieronymous-bean/exemplar?style=flat-square)](#) [![License](https://img.shields.io/github/license/hieronymous-bean/exemplar?style=flat-square)](#)
+[![License](https://img.shields.io/github/license/hieronymous-bean/exemplar?style=flat-square)](#)
 
 
 
